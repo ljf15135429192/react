@@ -1,4 +1,3 @@
-@import '~antd/dist/antd.css';
 .App {
   text-align: center;
 }
@@ -23,13 +22,7 @@
 .App-link {
   color: #61dafb;
 }
-.header{
-  display: flex;
-  width: 100%;
-  /* >div{
-    flex: 1;
-  } */
-}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
