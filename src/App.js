@@ -2,13 +2,13 @@ import React from 'react';
 
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Menu, Icon } from 'antd';
+import { Menu } from 'antd';
 import Home from './pages/home/home';
 import Text from './pages/text/text';
 import About from './pages/about/about';
 
 function App() {
-  const { SubMenu } = Menu;
+  
   return (
     <div className="App">
       <div className="header">
