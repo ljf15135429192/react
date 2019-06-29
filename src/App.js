@@ -7,27 +7,23 @@ import About from './pages/about/about'
 
 import Text from './pages/text/text'
 
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
- <Router>
-<div>
-  <MenuList></MenuList>
-</div>
-      
-       
-      <div>
-    
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/text" component={Text} />
+      <Router>
+        <div>
+          <MenuList></MenuList>
+        </div>
 
-      </div>
-    </Router>
-     
-      
+        <div>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/text" component={Text} />
+
+        </div>
+      </Router>
     </div>
   );
 }

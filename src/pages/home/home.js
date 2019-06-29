@@ -19,8 +19,6 @@ class Home extends React.Component {
       ]
     };
   }
-
-
   render() {
     console.log(this.state.list);
     let list = this.state.list.map((item) => {
